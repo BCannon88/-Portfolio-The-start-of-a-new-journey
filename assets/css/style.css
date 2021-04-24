@@ -12,13 +12,23 @@
   
   /* apply styles to <header> */
   header {
-    padding: 20px 35px;
-    background-color: #da6212;
-    background-image: url(../images/689140.jpeg);
-    background-position: center;
+    padding: 50px 35px 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .bio-info {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .bio-info h2 {
+    padding: 5px;
+  }
+
+  .bio-info h3 {
+    font-style: italic;
+    padding-top: 5px;
   }
   
   header h1 {
@@ -37,12 +47,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 7px 0;
-
+    margin: 7px 0 0 0;
   }
   
   header nav ul li {
     display: inline;
+    border-bottom: solid;
   }
   
   header nav ul li a {
@@ -51,7 +61,7 @@
     font-size: 22px;
   }
 
-  header h2 {
+  header h1 h2 {
       display: inline;
   }
   
@@ -59,14 +69,69 @@
     padding: 60px;
   }
   
-  /* Hero Style Start */
-  .hero {
-    background-image: url('../images/689140.jpeg');
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    
+  .intro {
+    font-size: 24px;
+    color: #da6212;
+    margin-bottom: 15px;
+    padding: 0 50px 20px 50px;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-color: #da6212;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro h2 {
+  margin: 10px;
+  padding: 5px;
+}
+
+.project {
+  font-size: 24px;
+  color: #da6212;
+  margin-bottom: 15px;
+  padding: 50px 50px 50px 50px;
+  border-bottom: 3px solid;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-color: #da6212;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.project h2 {
+  margin: 10px;
+  padding: 5px;
+}
+
+.project ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.project ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+  @media only screen and (max-width:1440px) {
+      body {
+          background-image: url(../images/689140.jpeg);
+      }
   }
-  /* Hero Style End */
+
+  @media only screen and (max-width:1024px) {
+    body {
+      background-image: url(../images/689140.jpeg);
+    }
+  }
   
