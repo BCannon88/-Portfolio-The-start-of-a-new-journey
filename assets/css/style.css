@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: #da6212;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('../images/689140.jpeg');
+  }
+  
+  /* apply styles to <header> */
+  header {
+    padding: 20px 35px;
+    background-color: #da6212;
+    background-image: url(../images/689140.jpeg);
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #da6212;
+    margin: 0;
+    display: inline;
+  }
+  header a {
+    text-decoration: none;
+    color: #da6212;
+  }
+  
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 7px 0;
+
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  header h2 {
+      display: inline;
+  }
+  
+  section {
+    padding: 60px;
+  }
+  
+  /* Hero Style Start */
+  .hero {
+    background-image: url('../images/689140.jpeg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+  }
+  /* Hero Style End */
+  
