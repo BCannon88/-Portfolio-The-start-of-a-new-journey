@@ -1,1 +1,1 @@
-# Portfolio
+This is my first portfolio using HTML and CSS. With this profile I hope to show the different talents I have learned and applied to jobs. When you click any of the links in the header they will direct you to the proper place on the webpage. Each image of my prior works will link you to the deployed website. I have also linked the LinkedIn image in the contacts section directly to my LinkedIn profile. 
