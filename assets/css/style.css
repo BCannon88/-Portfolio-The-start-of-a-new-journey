@@ -355,6 +355,19 @@ header nav ul {
     height: 300px;
     width: 975px;
     }
+    
+
+    #Bio {
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+      margin-bottom: 20px;
+      padding: 10px 100px 500px 20px;
+      height: 300px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #da6212;
+      font-size: 28px;
+     }
 
   #my-work {
     display: flex;
